@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nikhil's portfolio page</title>
+  </head>
+
+  <body>
+    <!-- navbar-section -->
+    <header class="navigation-bar font-serif">
+      <!-- <h2 class="item">Nikhil</h2> -->
+      <img
+        class="nav-logo"
+        src="./assets/images/nikhil-logo.svg"
+        alt=""
+      />
+      <nav class="item font-sans">
+        <a class="info" href="#">Skills</a>
+        <a class="info" href="#">Work Experiance</a>
+        <a class="info" href="#">Projects</a>
+        <a class="info" href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- hero-section -->
+    <div class="hero">
+      <img class="zen-circle" src="assets/images/zen-circle.png" alt="" />
+      <h1 class="hero-heading font-sans">Hey there,👋🏻<br />I'm Nikhil Omkar</h1>
+    </div>
+
+    <!-- skills section -->
+    <div class="skill">
+      <div class="left-skill font-serif">
+        <h1>Skills</h1>
+      </div>
+      <div class="right-skill">
+        <div class="hvr-float-shadow cursor-pointer">
+          <img
+            class="skills-svg"
+            src="./assets/images/python.svg"
+            alt="python"
+          />
+        </div>
+        <div class="hvr-float-shadow cursor-pointer">
+          <img
+            class="skills-svg"
+            src="./assets/images/fastapi.svg"
+            alt="fastapi"
+          />
+        </div>
+        <div class="hvr-float-shadow cursor-pointer">
+          <img class="skills-svg" src="./assets/images/html.svg" alt="html" />
+        </div>
+        <div class="hvr-float-shadow cursor-pointer">
+          <img class="skills-svg" src="./assets/images/css.svg" alt="css" />
+        </div>
+        <div class="hvr-float-shadow cursor-pointer">
+          <img class="skills-svg" src="./assets/images/js.svg" alt="js" />
+        </div>
+      </div>
+    </div>
+
+    <!-- work experiance -->
+    <div class="work-exp">
+      <div class="work-left">
+        <div class="work-one">
+          <h1 class="work-head font-sans">Technical Content Writer</h1>
+          <p class="work-para font-sans">
+            Worked as Python content writer at Latracal Solutions.
+          </p>
+        </div>
+      </div>
+      <div class="work-right font-serif">
+        <h1>Work Experiance</h1>
+      </div>
+    </div>
+
+    <div class="projects">
+      <div class="owl-carousel">
+        <div class="flex items-center justify-center">
+          <h1 class="project-head font-serif">Projects</h1>
+          <img
+            class="project-arrow cursor-pointer"
+            src="assets/images/right-arrow.svg"
+            alt=""
+          />
+        </div>
+        <div class="project-card flex">
+          <h1 class="project-card-head font-sans">dictencli</h1>
+          <p class="project-card-info">
+            A cli dictionary for finding word meanings.
+          </p>
+          <a class="project-card-button hvr-bounce-out" ref="#">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="contact">
+        <div class="contact-left font-serif">
+            <h1>Contact</h1>
+        </div>
+        <div class="contact-right">
+            <h2 class="font-sans contact-head">I'm always up for a chat.</h2>
+            <p class="contact-para font-sans"><a class="contact-right-mail" href="mailto:nikhil123omkar@gmail.com">Pop me an email <span class="contact-mail"></span>nikhil123omkar@gmail.com</span></a></p>
+            <img class="contact-social hvr-pulse" src="./assets/images/twitter.svg" alt="twitter">
+            <img class="contact-social hvr-pulse" src="./assets/images/linkedin.svg" alt="linkedin">
+        </div>
+    </div>
+
+    <script src="/owlcarousel/jquery.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
